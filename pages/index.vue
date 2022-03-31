@@ -19,13 +19,45 @@
       </div>
     </section>
 
-    <section class="h-screen flex justify-center items-center bg-gray-700">
+    <section class=" py-10 flex justify-center items-center bg-gray-700">
       <div class="">
+
         <h1 class="font-bold text-6xl xl:text-7xl text-white my-4 flex justify-center mx-auto">My Works</h1>
         <p class="text-xl flex justify-center mx-auto">Check out some of my works below.</p>
-        <div class="grid grid-cols-3 my-6">
-          <div class="bg-white h-96 w-2/6">
 
+
+        <div class="grid lg:grid-cols-4 md:grid-cols-3 gap-4 gap-y-10 my-6">
+
+          <div class="bg-white h-96">
+            <img :src="require('@/assets/images/portfolio/book-cover/aragrafix_20210514_15.png')" class="w-full" alt="">
+          </div>
+
+          <div class="bg-white h-96">
+            <img :src="require('@/assets/images/portfolio/book-cover/aragrafix_20210514_16.png')" class="w-full" alt="">
+          </div>
+
+          <div class="bg-white h-96">
+            <img :src="require('@/assets/images/portfolio/book-cover/aragrafix_20210515_3.png')" class="w-full" alt="">
+          </div>
+
+          <div class="bg-white h-96">
+            <img :src="require('@/assets/images/portfolio/book-cover/aragrafix_20210515_6.png')" class="w-full" alt="">
+          </div>
+
+          <div class="bg-white h-96">
+            <img :src="require('@/assets/images/portfolio/book-cover/aragrafix_20210515_10.png')" class="w-full" alt="">
+          </div>
+
+          <div class="bg-white h-96">
+            <img :src="require('@/assets/images/portfolio/logo design/IMG_20191017_222023_871.jpg')" class="w-full" alt="">
+          </div>
+
+          <div class="bg-white h-96">
+            <img :src="require('@/assets/images/portfolio/logo design/IMG_20191029_194327_299.jpg')" class="w-full" alt="">
+          </div>          
+          
+          <div class="bg-white h-96">
+            <img :src="require('@/assets/images/portfolio/flyers/1st.jpg')" class="w-full" alt="">
           </div>
         </div>
       </div>
