@@ -19,12 +19,14 @@
       </div>
     </section>
 
-    <section class="h-screen flex justify-center items-center">
+    <section class="h-screen flex justify-center items-center bg-gray-700">
       <div class="">
-        <h1 class="font-bold text-6xl xl:text-7xl text-gray-400 my-4 flex justify-center mx-auto">My Works</h1>
+        <h1 class="font-bold text-6xl xl:text-7xl text-white my-4 flex justify-center mx-auto">My Works</h1>
         <p class="text-xl flex justify-center mx-auto">Check out some of my works below.</p>
-        <div class="grid grid-cols-3">
+        <div class="grid grid-cols-3 my-6">
+          <div class="bg-white h-96 w-2/6">
 
+          </div>
         </div>
       </div>
     </section>
