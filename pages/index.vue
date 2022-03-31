@@ -23,7 +23,7 @@
       <div class="">
 
         <h1 class="font-bold text-6xl xl:text-7xl text-white my-4 flex justify-center mx-auto">My Works</h1>
-        <p class="text-xl flex justify-center mx-auto">Check out some of my works below.</p>
+        <p class="text-xl flex justify-center xl:text-2xl mx-auto text-white">Check out some of my works below.</p>
 
 
         <div class="grid lg:grid-cols-4 md:grid-cols-3 gap-4 gap-y-10 my-6">
@@ -59,6 +59,10 @@
           <div class="bg-white h-96">
             <img :src="require('@/assets/images/portfolio/flyers/1st.jpg')" class="w-full" alt="">
           </div>
+        </div>
+
+        <div class="flex justify-center mt-24">
+          <a href="/portfolio" class="px-10 py-3 rounded-md bg-white text-black font-medium text-3xl ">See More</a>
         </div>
       </div>
     </section>
