@@ -18,6 +18,14 @@
         </div>
       </div>
     </section>
+
+    <section class="h-screen flex justify-center items-center">
+      <div class="grid grid-cols-3">
+        <div>
+
+        </div>
+      </div>
+    </section>
   </body>
 </template>
 
