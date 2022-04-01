@@ -2,8 +2,8 @@
   <div class="bg-gray-600 py-10">
     <div class="">
       <h1 class="text-4xl font-bold text-white flex justify-center mx-auto lg:text-6xl">Logo design</h1>
-      <VueSlickCarousel :autoplay="true" :cssEase="ease" :pauseOnHover="true" :variableWidth="true" :arrows="false" :dots="false" :adaptiveHeight="true"
-       class="gap-4 mt-8 w-full ">
+      <VueSlickCarousel :autoplay="true" :cssEase="'ease'" :pauseOnHover="true" :variableWidth="true" :arrows="false" :dots="false" :adaptiveHeight="true"
+       class="gap-20 mt-8 w-full ">
 
         <div class="bg-white relative" style="min-width: 400px;">
           <img :src="require('@/assets/images/portfolio/logo design/IMG_20191029_194327_299.jpg')" class="w-full" />
