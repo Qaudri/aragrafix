@@ -36,27 +36,27 @@
       <VueSlickCarousel :rtl="true" :autoplay="true" :cssEase="ease" :pauseOnHover="true" :variableWidth="true" :arrows="false" :dots="false" :adaptiveHeight="true" class="gap-4 mt-8 w-full ">
 
         <div class=" relative mx-6" style="width: 400px;">
-          <img :src="require('@/assets/images/portfolio/flyers/1st.jpg')" class="w-full" />
+          <img :src="require('@/assets/images/portfolio/flyers/1st.jpg')" class="" />
         </div>   
 
         <div class=" relative mx-6" style="width: 400px;">
-          <img :src="require('@/assets/images/portfolio/flyers/3.jpg')" class="w-full" />
+          <img :src="require('@/assets/images/portfolio/flyers/3.jpg')" class="" />
         </div>        
         
         <div class="e relative mx-6" style="width: 400px;">
-          <img :src="require('@/assets/images/portfolio/flyers/Charmaine_SourceSmart_eflyerdesign_flatII_corrected_Upwork.jpg')" class="w-full" />
+          <img :src="require('@/assets/images/portfolio/flyers/Charmaine_SourceSmart_eflyerdesign_flatII_corrected_Upwork.jpg')" class="" />
         </div>           
         
         <div class=" relative mx-6" style="width: 400px;">
-          <img :src="require('@/assets/images/portfolio/flyers/Ife2.jpg')" class="w-full" />
+          <img :src="require('@/assets/images/portfolio/flyers/Ife2.jpg')" class="" />
         </div>           
         
         <div class=" relative mx-6" style="width: 400px;">
-          <img :src="require('@/assets/images/portfolio/flyers/Raboni.jpg')" class="w-full" />
+          <img :src="require('@/assets/images/portfolio/flyers/Raboni.jpg')" class="" />
         </div>           
         
         <div class=" relative mx-6" style="width: 400px;">
-          <img :src="require('@/assets/images/portfolio/flyers/WA_September.jpg')" class="w-full" />
+          <img :src="require('@/assets/images/portfolio/flyers/WA_September.jpg')" class="" />
         </div>   
       </VueSlickCarousel>
     </div>
